@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(images/Luffy.gif);
+    margin: 0;
+    min-height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-position: center center;
+    font-family:'Times New Roman', Times, serif;
+}
+
+h1{
+    font-size: 4rem;
+    margin-top: 20rem;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #7B68EE,
+        0 0 82px #7B68EE,
+        0 0 92px #7B68EE,
+        0 0 102px #7B68EE,
+        0 0 151px #7B68EE;
+}
+
+.countdown-container{
+    display: flex;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #7B68EE,
+        0 0 82px #7B68EE,
+        0 0 92px #7B68EE,
+        0 0 102px #7B68EE,
+        0 0 151px #7B68EE;
+
+}
+.big-text{
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 4.5rem;
+}
+
+.iden{
+    text-align: center;
+}
+
+.iden span{
+    font-size: 1.8rem;
+}
